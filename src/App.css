@@ -5,6 +5,8 @@ root {
   margin: 0;  
 }
 
+
+
 @layer utilities {
   .no-scrollbar::-webkit-scrollbar {
     display: none;
@@ -81,8 +83,13 @@ root {
 
 @layer base {
   *::-webkit-scrollbar {
-    display: none;
-    
+    display: none;    
+  }
+}
+
+@layer base {
+ body {
+    scroll-behavior: smooth;
   }
 }
 
