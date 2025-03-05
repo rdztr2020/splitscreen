@@ -3,11 +3,13 @@ import bottle from "../assets/bottle.png";
 import logo from "../assets/newlogotransparent.png";
 import fbicon from "../assets/3dfb.png";
 import insticon from "../assets/instagram4.png";
+import emailicon from "../assets/email.png"
+import phoneicon from "../assets/telephone.png"
 
 function Split() {
   return (
-    <div className="h-screen w-screen flex scroll-smooth">
-      <section className="w-1/2 h-full overflow-y-auto p-4 bg-[url(./assets/bg-slate.png)] bg-center bg-cover bg-no-repeat no-scrollbar">
+    <section className="h-screen w-screen flex scroll-smooth">
+      <div className="w-1/2 h-full overflow-y-auto p-4 bg-[url(./assets/bg-slate.png)] bg-center bg-cover bg-no-repeat no-scrollbar">
         {/* Left Section Content */}
 
         <div className="min-h-screen  flex flex-col items-center justify-center text-center font-sigmar">
@@ -36,7 +38,24 @@ function Split() {
             </div>
           </div>
         </div>
-      </section>
+        <section className="min-h-screen  flex flex-col items-center justify-around m-10">
+        <div>
+            <a
+              href="tel:555-555-5555"
+              target="_blank"
+            >
+              <img src={phoneicon} alt="" className="min-w-[160px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2" />
+            </a>
+          </div>
+          <div>
+            <a href="mailto:test@example.com" target="_blank">
+              <img src={emailicon} alt="" className="min-w-[160px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2" />
+            </a>
+          </div>
+          </section>
+      </div>
+
+      
 
       <div className="w-1/2 h-screen overflow-y-auto p-4  no-scrollbar bg-primary">
         {/* Right Section Content */}
@@ -63,7 +82,7 @@ function Split() {
           </div>
         </section>
       </div>
-    </div>
+    </section>
   );
 }
 
