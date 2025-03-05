@@ -44,13 +44,13 @@ function Split() {
               href="tel:555-555-5555"
               target="_blank"
             >
-              <img src={phoneicon} alt="" className="min-w-[160px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2" />
+              <img src={phoneicon} alt="" className="max-w-[140px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2" />
             </a>
           </div>
           
           <div>
             <a href="mailto:test@example.com" target="_blank">
-              <img src={emailicon} alt="" className="min-w-[160px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2 " />
+              <img src={emailicon} alt="" className="max-w-[140px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2 " />
             </a>
           </div>
           </section>
@@ -73,12 +73,12 @@ function Split() {
               href="https://www.facebook.com/groups/414186977978889"
               target="_blank"
             >
-              <img src={fbicon} alt="" className="min-w-[160px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2" />
+              <img src={fbicon} alt="" className="min-w-[160px] md:min-w-[280px] lg:min-w-[380px] img-shadow-2" />
             </a>
           </div>
           <div>
             <a href="https://www.instagram.com/gordomikesbbq/" target="_blank">
-              <img src={insticon} alt="" className="min-w-[160px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2" />
+              <img src={insticon} alt="" className="min-w-[160px] md:min-w-[280px] lg:min-w-[380px] img-shadow-2" />
             </a>
           </div>
         </section>
