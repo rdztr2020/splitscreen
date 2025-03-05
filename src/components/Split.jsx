@@ -39,7 +39,7 @@ function Split() {
           </div>
         </div>
         <section className="min-h-screen  flex flex-col items-center justify-around m-10">
-        <div>
+        <div className="mb-20">
             <a
               href="tel:555-555-5555"
               target="_blank"
@@ -47,9 +47,10 @@ function Split() {
               <img src={phoneicon} alt="" className="min-w-[160px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2" />
             </a>
           </div>
+          
           <div>
             <a href="mailto:test@example.com" target="_blank">
-              <img src={emailicon} alt="" className="min-w-[160px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2" />
+              <img src={emailicon} alt="" className="min-w-[160px] md:max-w-[280px] lg:min-w-[380px] img-shadow-2 " />
             </a>
           </div>
           </section>
